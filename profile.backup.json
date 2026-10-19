@@ -1,0 +1,31 @@
+{
+    "name": "Nelson Gonzalez",
+    "location": { "city": "Kendall, Miami, FL", "zip": "33186", "timezone": "America/New_York" },
+    "workAuthorization": { "usPerson": true, "usCitizenConfirmed": true },
+    "goal": {
+      "type": "second-job",
+      "hoursPerWeek": { "min": 10, "max": 20 },
+      "preferredEngagement": ["hourly", "contract", "part-time", "flexible"],
+      "remoteOnly": true
+    },
+    "stack": {
+      "core": ["TypeScript", "Node.js", "NestJS", "Next.js", "React", "REST", "GraphQL"],
+      "strong": ["AWS", "CI/CD", "Third-party integrations", "Backend services", "PostgreSQL"],
+      "familiar": ["Python", "Prisma", "Express", "tRPC"],
+      "aiTooling": ["Cursor", "GitHub Copilot", "CLI coding agents", "Raw model APIs", "Gemini SDK"],
+      "avoidFrameworks": ["LangChain"]
+    },
+    "seniority": { "level": "Senior", "flexibleOnTitles": true, "aiSpeedMultiplier": true },
+    "dealbreakers": {
+      "onCall": true,
+      "afterHoursOrWeekendSupport": true,
+      "moneyMovementPager": true,
+      "meetingHeavy": true,
+      "roles": ["founding engineer", "people manager", "tech lead as core job", "mentoring as core job", "CEO or head-of-product pairing"],
+      "wrongCoreLanguages": ["Go", "Java/Spring", ".NET/C#", "Ruby", "PHP", "Rust", "Elixir", "Kotlin Multiplatform", "Unity/C#", "Python data pipelines"],
+      "locationConflict": "hybrid or onsite outside remote-from-Kendall"
+    },
+    "plusSignals": ["AI-assisted coding welcome", "async team", "AI evaluation work", "agentic or LLM integration", "fresh posting", "under 100 applicants", "direct ATS link"],
+    "skip": { "companies": ["Worth AI", "One Park Financial"] },
+    "scoring": { "scale": "0-10", "sideJobYes": 7, "fullTimeMaybe": 5 }
+  }

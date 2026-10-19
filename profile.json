@@ -1,0 +1,51 @@
+{
+  "name": "Nelson Gonzalez",
+  "headline": "Senior Full-Stack Software Engineer | 10+ Years | TypeScript · React · Next.js · Node.js · NestJS · REST/GraphQL · AWS · Azure | AI-Augmented Development",
+  "positioning": "Full-stack TypeScript engineer who works AI-first, not an AI/ML engineer",
+  "yearsExperience": 10,
+  "location": { "city": "Kendall, Miami, FL", "zip": "33186", "timezone": "America/New_York" },
+  "workAuthorization": { "usCitizen": true, "citizenshipRequiredRolesOk": true },
+  "links": {
+    "github": "https://github.com/NelsonManuelGM",
+    "linkedin": "https://www.linkedin.com/in/nelsonmanuelgm"
+  },
+  "goal": {
+    "type": "second-job",
+    "hoursPerWeek": { "target": 20 },
+    "engagement": "open (contract, hourly, part-time or flexible)",
+    "remoteOnly": true,
+    "fullTimeTarget": { "level": "Senior", "baseSalaryUsd": { "min": 180000, "target": 200000 } }
+  },
+  "stack": {
+    "core": ["TypeScript", "JavaScript", "React", "Next.js", "Node.js", "NestJS", "REST", "GraphQL", "AWS", "Azure"],
+    "strong": ["BullMQ", "Redis", "Directus", "Jest", "Swagger/OpenAPI", "CI/CD", "DynamoDB", "S3", "Micro-frontends", "Datadog", "LaunchDarkly", "Third-party/ERP integrations"],
+    "secondary": ["Python (out of shape, not for Python-heavy backends)", "Celery", "LLM integrations", "Vertex AI"],
+    "aiWorkflow": ["Cursor", "GitHub Copilot", "CLI coding agents", "Custom agent workflows", "MCP servers", "Gemini SDK"],
+    "avoidFrameworks": ["LangChain"]
+  },
+  "currentRole": {
+    "company": "Allure Bridals",
+    "highlights": [
+      "Shared backend services and integrations",
+      "Directus middleware syncing Business Central (ERP), BigCommerce and Directus",
+      "BullMQ/Redis interconnected-queue sync layer on Azure that fixed Node timeouts and lost syncs under several hundred concurrent requests, made sync automatic, and added a queue monitoring UI",
+      "Redis caching, CI/CD, Swagger API docs",
+      "Rebuilt legacy interfaces in React/Next.js"
+    ]
+  },
+  "seniority": { "level": "Senior", "flexibleOnTitles": true, "aiSpeedMultiplier": true },
+  "dealbreakers": {
+    "onCall": true,
+    "afterHoursOrWeekendSupport": true,
+    "moneyMovementPager": true,
+    "meetingHeavy": true,
+    "roles": ["founding engineer", "people manager", "tech direction as core job", "mentoring as core job", "CEO or product pairing"],
+    "wrongCoreLanguages": ["Ruby/Rails", "Kotlin Multiplatform", "Unity/C#", ".NET/C#", "Java/Spring", "PHP", "Go", "Rust", "Python data pipelines", "Python-heavy backend"],
+    "locationConflict": "hybrid or onsite outside remote-from-Kendall"
+  },
+  "plusSignals": ["TypeScript-first stack", "AI-assisted coding welcome", "async team", "AI evaluation work", "fresh posting", "direct ATS link"],
+  "knownGaps": ["No AWS + Terraform high-throughput scale numbers", "No recent software-product-company work", "Several tenures under a year"],
+  "skip": { "companies": ["Worth AI", "One Park Financial", "CyberCoders (Rails)", "Alt Platform", "Temporal", "Tekmetric", "PRO-ED", "Gi4"] },
+  "alreadyApplied": ["Cypress HCM", "Lively"],
+  "scoring": { "scale": "0-10", "sideJobYes": 7, "fullTimeMaybe": 5 }
+}
