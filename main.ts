@@ -2,14 +2,14 @@ import { stdin as input, stdout as output, exit } from "process"
 import fs from "fs";
 import { GoogleGenAI, type Content, type ContentListUnion, type GenerateContentConfig, type GenerateContentParameters, type Part, type PartUnion } from "@google/genai";
 
-const API_KEY = process.env.GEMINI_API_KEY ?? "";
-const MODEL_NAME = process.env.GEMINI_MODEL_NAME;
+const MODEL_NAME = process.env.GEMINI_MODEL_NAME || "gemini-3-flash-preview";
 //const MODEL_NAME = "gemini-3.8-flash"
 //const MODEL_NAME = "gemini-3.7-flash"
 //const MODEL_NAME = "gemini-3.1-flash"
 
+console.log("GEMINI_API_KEY: ", process.env.GEMINI_API_KEY);
 const genai = new GoogleGenAI({
-    apiKey: API_KEY,
+    apiKey: process.env.GEMINI_API_KEY || ""
 });
 
 let contents: Array<Content> = [
